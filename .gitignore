@@ -1,0 +1,9 @@
+# Ignore Photoshop Project Files
+*.psd
+
+# Ignore Backend
+node_modules
+
+# Ignore Test HTML Files
+login.HTML
+register.HTML
