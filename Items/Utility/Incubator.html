@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Incubator page of How to Own a Dragon.">
+    <meta name="author" content="How to Own a Dragon">
+    <!-- External CSS file(s) & JS Scripts -->
+    <link rel="stylesheet" href="../../common.css">
+    <script src="../../toc.js"></script>
+    <script src="../../history.js"></script>
+    <script src="../../../lang-loader.js"></script>
+    <script src="../../redirects.js"></script>
+    <script src="../../collapsibletable.js"></script>
+    <!-- Title of the page (seen as text in the tab at the top of the screen in a browser)-->
+    <title>Incubator - How to Own a Dragon Wiki</title>
+</head>
+<!-- End of required stuff for every page-->
+
+<body style="background-color: rgb(26, 26, 26); color: whitesmoke;">
+
+    <div id="content" class="content">
+
+        <header>
+            <h1>
+                <div id="incubator-page-title"></div>Incubator
+            </h1>
+        </header>
+        <p>
+            <i><b>The Incubator</b></i> is a <a href="#" onclick="ItemToUtility()">Utility</a> block with a GUI where you can hatch the eggs of dragons.
+            There are multiple tiers of Incubators, but so far only tier 1 is implemented.
+        </p>
+
+        <table class="infotable" style="margin-top: 50px;">
+            <tbody>
+                <tr>
+                    <th style="text-align: center">
+                        <h1 style="line-height: 40px;"><b>Incubator</b></h1>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: center">
+                        <img style="padding-left: 10px;" alt="Incubator" src="../../Assets/Items/Incubator_T1.webp" width="175" height="150">
+                    </th>
+                </tr>
+
+                <tr>
+                    <td style="text-align: center">
+                        <h2 class="notoc" style="line-height: 0px;"><b>Information</b></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Item type:</b> Utility
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Canon use:</b> Not canon
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Use in the mod:</b> To hatch the eggs of the dragons in game
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 style="margin-bottom: 0;">Crafting</h2>
+            <p>
+                The Tier 1 incubator is crafted using Stone, Cobbled Deepslate, and a Bucket like this:
+            </p>
+            <div class="CraftingBackground">
+                <div class="CraftingGrid" id="CraftingGrid">
+                    <div id="A1" data-images="../../Assets/Items/Vanilla/Stone.webp"></div>
+                    <div id="A2" data-images="../../Assets/Items/Vanilla/Cobbled_Deepslate.webp"></div>
+                    <div id="A3" data-images="../../Assets/Items/Vanilla/Stone.webp"></div>
+                    <div id="B1" data-images="../../Assets/Items/Vanilla/Cobbled_Deepslate.webp"></div>
+                    <div id="B2" data-images="../../Assets/Items/Vanilla/Bucket.webp"></div>
+                    <div id="B3" data-images="../../Assets/Items/Vanilla/Cobbled_Deepslate.webp"></div>
+                    <div id="C1" data-images="../../Assets/Items/Vanilla/Stone.webp"></div>
+                    <div id="C2" data-images="../../Assets/Items/Vanilla/Cobbled_Deepslate.webp"></div>
+                    <div id="C3" data-images="../../Assets/Items/Vanilla/Stone.webp"></div>
+                </div>
+                <div id="OutputContainer"> 
+                    <div id="OutputSlot" data-images="../../Assets/Items/Incubator_T1.webp"></div>
+                </div>
+            </div> 
+
+        <h2 style="margin-bottom: 0;">Usage</h2>
+        <p>
+            With the Tier 1 Incubator, you can hatch all eggs at a speed per egg (which depends on what egg it is),
+            and it has certain requirements for each type of dragon egg in order to complete the hatching process for that egg.
+        </p>
+        <b>Requirements for Hatching</b>
+        <table>
+            <tr>
+                <th>Dragon Egg</th>
+                <th>Requirement</th>
+                <th>Time to hatch</th>
+            </tr>
+            <tr>
+                <td>Gronckle</td>
+                <td>Lava Bucket</td>
+                <td>20 minutes</td>
+            </tr>
+            <tr>
+                <td>Deadly Nadder</td>
+                <td>Flint</td>
+                <td>20 minutes</td>
+            </tr>
+            <tr>
+                <td>Terrible Terror</td>
+                <td>Rabbit's Foot</td>
+                <td>5 minutes</td>
+            </tr>
+        </table>
+        <div id="History">
+        </div>
+    </div>
+    <script>
+        createTableOfContents();
+    </script>
+    <script>
+        const headers = ["Version", "Changes"];
+        const data = [
+            ["0.0.2", "Introduced Tier 1 Incubator"],
+            ["0.0.3", "Fixed being able to put non-egg items in the egg slot"],
+            ["0.0.5", "Added Terrible Terror and deadly Nadder egg hatching recipes"],
+            ["0.0.7", "Changed Time it takes to hatch to the accurate times"],
+        ];
+
+        generateHistory(headers, data);
+    </script>
+    <script src="../../CraftingGrid.js"></script>
+    <footer>
+        <div class="copyright-div">
+            <p class="copyright"> Copyright &copy; 2023-2024</p>
+            <p class="owner">How to Own a Dragon</p>
+            <p class="rights">All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+</body>

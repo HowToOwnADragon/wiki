@@ -1,0 +1,546 @@
+<!-- Required for every page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Monstrous Nightmare page of How to Own a Dragon.">
+    <meta name="author" content="How to Own a Dragon">
+    <!-- External CSS file(s) & JS Scripts -->
+    <link rel="stylesheet" href="../../common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../../toc.js"></script>
+    <script src="../../history.js"></script>
+    <script src="../../../lang-loader.js"></script>
+    <script src="../../redirects.js"></script>
+    <script src="../../collapsibletable.js"></script>
+    <script src="../../searchbar.js"></script>
+    <!-- Title of the page (seen as text in the tab at the top of the screen in a browser)-->
+    <title>Monstrous Nightmare - How to Own a Dragon Wiki</title>
+</head>
+<!-- End of required stuff for every page-->
+
+<body>
+    <input id="search-query" type="text" placeholder="Search...">
+
+    <div id="content" class="content">
+
+        <header>
+            <h1>
+                <div id="TT-page-title"></div>Monstrous Nightmare
+            </h1>
+        </header>
+        <p> <!-- Short Introduction to the dragon (1 paragraph, no more, no less.) -->
+            <i><b>The Monstrous Nightmare</b></i> is a large
+            <a href="#" onclick="DragonToStoker()">Stoker Class dragon</a> that appears in the
+            <a href="#" onclick="DragonToMain()">How to Own a Dragon</a> Minecraft Mod.
+            This page contains every single bit of information there is to know about the dragon in game.
+            The subjects covered by this page are:
+        </p>
+
+        <table class="infotable" style="margin-top: 50px;">
+            <tbody>
+                <tr>
+                    <th style="text-align: center">
+                        <h1 style="line-height: 40px;"><b>Monstrous Nightmare</b></h1>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th style="text-align: center">
+                        <img style="padding-left: 10px;" alt="Monstrous Nightmare in pose"
+                            src="../../Assets/Dragons/Nightmare.png" width="325" height="225">
+                    </th>
+                </tr>
+
+                <tr>
+                    <td style="text-align: center">
+                        <h2 class="notoc" style="line-height: 0px;"><b>Information</b></h2>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Class: <a href="#" onclick="DragonToStoker()">Stoker</a></b></td>
+                </tr>
+
+                <tr>
+                    <td><b>Colors:</b>
+                        <ul> <!-- Every possible color of the dragon in the mod -->
+                            <li>Baldreng</li>
+                            <li>Sven</li>
+                            <li>Dark Blue</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Size:</b>
+                        <ul> <!-- Size measured in BlockBench -->
+                            <li>Length: 17 Blocks</li>
+                            <li>Width: 1.5 Blocks</li>
+                            <li>Height: 3 Blocks</li>
+                            <li>Wingspan: 21 Blocks</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr> <!-- Hitbox taken from entity file-->
+                    <td><b>Hitboxes:</b> 2 x 2 x 3 Blocks</td>
+                </tr>
+
+                <tr>
+                    <td><b>Preferred Food:</b>
+                        <ul>
+                            <li><a target="_blank" href="../../Items/Drops/Yak_meat">Raw Yak meat</a></li>
+                            <li><a target="_blank" href="https://minecraft.wiki/w/Raw_mutton">Raw Mutton</li>
+                            <li><a target="_blank" href="https://minecraft.wiki/w/Raw_Cod">Raw Cod</a></li>
+                            <li><a target="_blank" href="https://minecraft.wiki/w/Raw_Salmon">Raw Salmon</a></li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Spawn Biomes:</b>
+                        <ul> <!-- Every possible biome the dragon can spawn in, with a link to the MC wiki page of said biome -->
+                            <li><a target="_blank" href="https://minecraft.wiki/w/Windswept_Hills#Windswept_Forest">Windswept Forest</a></li>
+                            <li><a target="_blank" href="https://minecraft.wiki/w/Grove">Grove</a></li>
+                            <li><a target="_blank" href="https://minecraft.wiki/w/Meadow">Meadow</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Interactions:</b>
+                        <ul>
+                            <li>Tameable: Yes</li>
+                            <li>Breedable: Yes</li>
+                            <li>Rideable: Yes</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="toc" id="toc" style="border: 5px whitesmoke;"><!-- Table of Contents -->
+        </div>
+
+        <h2 style="margin-bottom: 0;">Variants</h2>
+        <p>
+            There are several variants of the Monstrous Nightmare. Each variant belongs to a different type.
+        </p>
+        <div id="VariantTypes">
+            <div id="VariantTypesTitle"><b>The types of variants are:</b></div>
+            <table id="VariantTypesTable" class="wikitable"><!-- List of Variant Types -->
+                <tr>
+                    <th style="font-size: 14pt;">Type</th>
+                    <th style="font-size: 14pt;">Name of Variant</th>
+                </tr>
+                <tr>
+                    <th>Colors</th>
+                    <td>Dark Blue</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Named</th>
+                    <td>Baldreng</td>
+                </tr>
+                <tr>
+                    <td>Sven</td>
+                </tr>
+            </table>
+        </div>
+        <p>
+            Some variants have a different way of obtaining them. Below is a list of variants with their obtaining methods
+        </p>
+        <div id="VariantObtaining">
+            <div id="VariantObtainingTitle"><b>Obtainable variants:</b></div>
+            <table id="VariantObtainingTable" class="wikitable"><!-- List of Variants and how to obtain them -->
+                <tr>
+                    <th style="font-size: 14pt;">Obtaining method</th>
+                    <th style="font-size: 14pt;">Name of Variant</th>
+                </tr>
+                <tr>
+                    <th rowspan="3">Natural Spawning</th>
+                    <td>Baldreng</td>
+                </tr>
+                <tr>
+                    <td>Sven</td>
+                </tr>
+                <tr>
+                    <td>Dark Blue</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Spawning</h2>
+        <p>
+            Naturally spawning Monstrous Nightmares appear in the Overworld.
+            Typically, they appear in groups of a size that ranges from 2 to 4,
+            but sometimes a female Monstrous Nightmare is able to spawn together with a baby, increasing the size of the group.
+        </p>
+        <p>
+            The chances for a Female Monstrous Nightmare to spawn with a baby near her are 1% (1/100).
+            This baby will have the same color as the mother, although the stats might differ.
+        </p>
+        <p>The gender and variant of wild Monstrous Nightmares will always be random.</p>
+        <p>
+            Monstrous Nightmares will also spawn if you use a Monstrous Nightmare spawn egg on any block or entity.
+            When the spawn egg is used on a Monstrous Nightmare, it will spawn a baby.
+        </p>
+        <p>
+            When a Monstrous Nightmare spawns, each stat will be randomly generated within a certain range.
+            <br>
+            The ranges for each stat are as follows:
+        </p>
+        <table> <!-- Stats table -->
+            <tr>
+                <th>Stats</th>
+                <th>Range</th>
+            </tr>
+            <tr>
+                <td>Health</td>
+                <td>50-70</td>
+            </tr>
+            <tr>
+                <td>Armor</td>
+                <td>22-26</td>
+            </tr>
+            <tr>
+                <td>Damage</td>
+                <td>13-17</td>
+            </tr>
+            <tr>
+                <td>Walkspeed</td>
+                <td>0.7-1.1</td>
+            </tr>
+            <tr>
+                <td>FlySpeed</td>
+                <td>1.4-1.8</td>
+            </tr>
+            <tr>
+                <td>Swimspeed</td>
+                <td>0.9-1.1</td>
+            </tr>
+        </table>
+
+        <h3>Spawn Biomes</h3>
+        <p>
+            Each variant of the Monstrous Nightmare spawns in different biomes.
+            <br>
+            To see the spawning conditions of each variant, click on the respective tab.
+        </p>
+        <div class="tab"> <!-- Variant Tabs -->
+            <button class="tablinks" onclick="openTab(event, 'Tab1')">Baldreng</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab2')">Sven</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab3')">Dark Blue</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Tab1" class="tabcontent"> <!-- Baldreng -->
+            <table>
+                <tr> <!-- Headers -->
+                    <th style="text-align: center;">Biome</th>
+                    <th>Weather</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                </tr>
+                <tr> <!-- Windswept Forest -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Windswept_Hills#Windswept_Forest">Windswept Forest</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+                <tr> <!-- Grove -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Grove">Grove</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+                <tr> <!-- Meadow -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Meadow">Meadow</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Tab2" class="tabcontent"> <!-- Sven -->
+            <table>
+                <tr> <!-- Headers -->
+                    <th style="text-align: center;">Biome</th>
+                    <th>Weather</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                </tr>
+                <tr> <!-- Windswept Forest -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Windswept_Hills#Windswept_Forest">Windswept Forest</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+                <tr> <!-- Grove -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Grove">Grove</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+                <tr> <!-- Meadow -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Meadow">Meadow</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Tab3" class="tabcontent"> <!-- Dark Blue -->
+            <table>
+                <tr> <!-- Headers -->
+                    <th style="text-align: center;">Biome</th>
+                    <th>Weather</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                </tr>
+                <tr> <!-- Windswept Forest -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Windswept_Hills#Windswept_Forest">Windswept Forest</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+                <tr> <!-- Grove -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Grove">Grove</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+                <tr> <!-- Meadow -->
+                    <td><a target="_blank" href="https://minecraft.wiki/w/Meadow">Meadow</a></td>
+                    <td>Clear</td>
+                    <td>Day</td>
+                    <td>On land</td>
+                </tr>
+            </table>
+        </div>
+
+        <h3 style="margin-bottom: 0;">Drops</h3>
+        <p>When killed, Monstrous Nightmares drop scales depending on their current growth stage.</p>
+        <div id="Scales">
+            <h4 class="notoc" id="ScalesTitle">Scales:</h4>
+            <table id="ScalesTable" class="wikitable">
+                <!-- Amount of Scales dropped per growth stage in ratio and percentage -->
+                <tr>
+                    <th style="font-size: 14pt;">Stage</th>
+                    <th style="font-size: 14pt;">Chance</th>
+                    <th style="font-size: 14pt;">Amount</th>
+                </tr>
+                <tr>
+                    <td>Baby</td>
+                    <td>50%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Juvenile</td>
+                    <td>50%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Adolescent</td>
+                    <td>50%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Grown</td>
+                    <td rowspan="2">33%</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                </tr>
+            </table>
+        </div>
+        
+        <h2>Behaviour</h2>
+        <p>
+            Monstrous Nightmares are peaceful dragons that will not attack the player.
+        </p>
+        <p>
+            When holding 1 of the items used for <a href="#9-taming--breeding">taming</a> a Monstrous Nightmare, it will
+            follow the player around.
+            <br>
+            If the player is absent or not holding taming items and the Monstrous Nightmare is not tamed, it will wander
+            around aimlessly.
+        </p>
+        <p>
+            After taming a Monstrous Nightmare,
+            right-clicking on it with an empty hand will let you ride it.
+            <br>
+            You can also let it follow you by right-clicking on it with <a href="#" onclick="DragonToStaff()">Valka's Staff</a>
+            or by pressing the "All Follow" keybind (G by default).
+            <br>
+            If you right-click a Monstrous Nightmare with a <a onclick="DragonToDragonSaddle()">Monstrous Nightmare Saddle</a>, the dragon will equip it.
+            However, as of Alpha 0.0.7 the <a onclick="DragonToDragonSaddle()">Monstrous Nightmare Saddle</a> is completely cosmetic.
+        </p>
+
+        <h3>Taming & Breeding</h3>
+        <div class="tab"> <!-- Taming & Breeding Tabs-->
+            <button class="tablinks" onclick="openTab(event, 'Tab4')">Taming</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab5')">Breeding</button>
+        </div>
+        <div id="Tab4" class="tabcontent"> <!-- Taming -->
+            <p>
+                In order to tame a Monstrous Nightmare, you are required to hold one of the following items and right-click on one in the wild.
+                <br>
+                In Survival Mode, the taming success rate is 30% for each item.
+                <br>
+                In Creative Mode, the taming is guaranteed.
+            </p>
+            <p>
+                The items that can be used to tame a Monstrous Nightmare are:
+            </p>
+
+            <table> <!-- Taming Items -->
+                <tr> <!-- Raw Yak meat -->
+                    <td>
+                        <a target="_blank" href="../../Items/Drops/Yak_meat">Raw Yak meat</a>
+                    </td>
+                </tr>
+                <tr> <!-- Raw Mutton -->
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Raw Mutton">Raw Mutton</a>
+                    </td>
+                </tr>
+                <tr> <!-- Raw Cod -->
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Raw_Cod">Raw Cod</a>
+                    </td>
+                </tr>
+                <tr> <!-- Raw Salmon-->
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Raw_Salmon">Raw Salmon</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="Tab5" class="tabcontent"> <!-- Breeding-->
+            <p>
+                In order to breed Monstrous Nightmares, Right-click a Male and Female with any of the breeding items in your hand.
+                <br>
+                Note that you can only breed Monstrous Nightmares if the weather is clear.
+            </p>
+            <p>
+                The items that can be used to breed Monstrous Nightmares are:
+            </p>
+            <table> <!-- Breeding Items-->
+                <tr> <!-- Raw Yak meat -->
+                    <td>
+                        <a target="_blank" href="../../Items/Drops/Yak_meat">Raw Yak meat</a>
+                    </td>
+                </tr>
+                <tr> <!-- Raw Mutton -->
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Raw Mutton">Raw Mutton</a>
+                    </td>
+                </tr>
+                <tr> <!-- Raw Cod -->
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Raw_Cod">Raw Cod</a>
+                    </td>
+                </tr>
+                <tr> <!-- Raw Salmon-->
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Raw_Salmon">Raw Salmon</a>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                After Breeding 2 Monstrous Nightmares, the female will lay an egg.
+                <br>
+                After the egg is laid, the female will receive a "Breeding Cooldown" of 5 minutes seconds before it is
+                able to breed again.
+                <br>
+                The male will not receive a cooldown.
+            </p>
+            <p>
+                To find out how to hatch a Monstrous Nightmare Egg, check out the 
+                <a href="#" onclick="DragonToIncubator()">Incubator</a> page.
+            </p>
+            <p>
+                When a Monstrous Nightmare egg hatches, a Baby Monstrous Nightmare spawns.
+                For more information on how the inheritance system works, check out
+                "<a href="#10-genetics">Genetics</a>"
+            </p>
+        </div>
+        <h3>Genetics</h3>
+        <p>
+            When a Monstrous Nightmare egg hatches, a Baby Monstrous Nightmare spawns.
+            <br>
+            The baby will have a 50/50 chance to inherit a color and gender from either parent.
+            <br>
+            This same chance applies for inheriting stats from it's parents.
+        </p>
+        <p>
+            The stats that can be inherited are:
+        </p>
+        <table> <!-- List of inheritable stats -->
+            <tr>
+                <td>Health</td>
+            </tr>
+            <tr>
+                <td>Armor</td>
+            </tr>
+            <tr>
+                <td>Damage</td>
+            </tr>
+            <tr>
+                <td>Walkspeed</td>
+            </tr>
+            <tr>
+                <td>Flyspeed</td>
+            </tr>
+            <tr>
+                <td>Swimspeed</td>
+            </tr>
+        </table>
+        <p>
+            There is a 1% chance that the stat of the Baby gets <a href="#" onclick="DragonToMutation()">mutated</a>,
+            increasing the stat by 1 Point.
+            <br>
+            The Monstrous Nightmare can have a maximum of 50 mutations, with a maximum of 20 mutations per stat.
+        </p>
+        <h2>Abilities</h2>
+        <p>
+            The Monstrous Nightmare has, as of alpha 0.0.7, no abilities.
+        </p>
+
+        <div id="History">
+        </div>
+    </div>
+    <script>
+        createTableOfContents();
+    </script>
+    <script>
+        CollapsibleTable("VariantTypes", "VariantTypesTitle", "VariantTypesTable");
+        CollapsibleTable("VariantObtaining", "VariantObtainingTitle", "VariantObtainingTable");
+        CollapsibleTable("Scales", "ScalesTitle", "ScalesTable");
+    </script>
+    <script>
+        const headers = ["Version", "Changes"];
+        const data = [
+            ["0.0.7", 'Introduced with 3 Variants. Baldreng, Sven and Dark Blue'],
+        ];
+
+        generateHistory(headers, data);
+    </script>
+    <script src="../../admonitionblocks.js"></script>
+    <footer>
+        <div class="copyright-div">
+            <p class="copyright"> Copyright &copy; 2023-2024</p>
+            <p class="owner">How to Own a Dragon</p>
+            <p class="rights">All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>

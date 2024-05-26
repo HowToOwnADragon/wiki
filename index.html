@@ -1,0 +1,105 @@
+<!-- Required for every page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS file(s) & JS Scripts -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="toc.js"></script>
+    <script src="history.js"></script>
+    <script src="../lang-loader.js"></script>
+    <script src="redirects.js"></script>
+    <script src="../../searchbarhtmlfinder.js"></script>
+    <!-- Title of the page (seen as text in the tab at the top of the screen in a browser)-->
+    <title>Main Page - How to Own a Dragon Wiki</title>
+</head>
+<!-- End of required stuff for every page-->
+
+<body>
+    <div id="content" class="content">
+        <header style="text-align: center;">
+            <h1>Welcome to the How to Own a Dragon Wiki!</h1>
+        </header>
+
+        <p>
+            This wiki is all about the How to Own a Dragon Minecraft mod.
+            It contains every bit of information there is to know about the features as they currently are in the mod.
+            Dragons, Locations, Items, Blocks, you name it, and its here!
+        </p>
+
+        <p>
+            This wiki is still under heavy development and will be updated in combination to the mod.
+            When a feature is added/changed in an alpha and that alpha releases on CurseForge,
+            the updated information will be visible on the relevant pages.
+            <br>
+            On this page, you'll find a multitude of things.
+        </p>
+
+        <div class="toc" id="toc" style="border: 5px whitesmoke;"><!-- Table of Contents -->
+        </div>
+
+        <div> <!-- Classes -->
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div class="content-heading" onclick="MainToDragons()">
+                    <a>
+                        <h1>Dragons</h1>
+                    </a>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <ul class="blocks-list" style="margin-bottom: 10px;">
+                    <li class="blocks-item" onclick="MainToBoulder()">
+                        <a style="text-align: center;">Boulder Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Boulder_Class.webp">
+                    </li>
+                    <li class="blocks-item" onclick="MainToMystery()">
+                        <a>Mystery Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Mystery_Class.webp">
+                    </li>
+                    <li class="blocks-item" onclick="MainToSharp()">
+                        <a>Sharp Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Sharp_Class.webp">
+                    </li>
+                    <li class="blocks-item" onclick="MainToStoker()">
+                        <a>Stoker Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Stoker_Class.webp">
+                    </li>
+                    <li class="blocks-item" onclick="MainToStrike()">
+                        <a>Strike Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Strike_Class.webp">
+                    </li>
+                    <li class="blocks-item" onclick="MainToTidal()">
+                        <a style="padding-right: 5px;">Tidal Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Tidal_Class.webp">
+                    </li>
+                    <li class="blocks-item" onclick="MainToTracker()">
+                        <a>Tracker Class</a>
+                        <img style="margin-bottom: 7px; padding-top: 2px;" width="180px" height="180px"
+                            src="Assets/Classes/Tracker_Class.webp">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright-div">
+            <p class="copyright"> Copyright &copy; 2023-2024</p>
+            <p class="owner">How to Own a Dragon</p>
+            <p class="rights">All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+        createTableOfContents();
+    </script>
+</body>
+
+</html>
