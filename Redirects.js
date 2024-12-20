@@ -491,7 +491,13 @@ function MainToUtility() {
                 window.location.href = "Utility/Valka's_Staff"
             }
 
-/*Redirects to Feature pages*/
+/*Redirects from Dragon to Feature/Item pages*/
 function DragonToMutation() {
     window.location.href = '../../Features/Mutation'
+}
+function DragonToIncubator() {
+    window.location.href = '../../Items/Utility/Incubator'
+}
+function GronckleToGronckleIron() {
+    window.location.href = '../../Items/Natural_Resources/Gronckle_Iron'
 }

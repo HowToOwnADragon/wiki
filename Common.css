@@ -153,9 +153,9 @@ nav {
 /*tabs*/
 
 .tab {
-    width: 41.5em;
+    max-width: 41.6em;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: none;
     display: flex;
     flex-wrap: nowrap;
     color: inherit;
@@ -193,7 +193,7 @@ nav {
 
 
 .tabcontent {
-    width: 40em;
+    max-width: 40em;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;

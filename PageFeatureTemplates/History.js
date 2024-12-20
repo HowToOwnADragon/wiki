@@ -14,20 +14,17 @@ function generateHistory(headers, data, divId = "History") {
   title.innerText = "History";
   title.classList.add("CollapsablElementTitle");
 
-  const hidebutton = document.createElement("H6");
-  hidebutton.innerText = "[hide]";
-  hidebutton.classList.add("hidebutton")
-  hidebutton.addEventListener('click', () => {
+  // Create the hide/show button
+  const hideButton = document.createElement("H6");
+  hideButton.innerText = "▲";
+  hideButton.classList.add("hidebutton");
+  hideButton.addEventListener('click', () => {
     TableContainer.classList.toggle("historyHidden");
-    if (TableContainer.classList.contains("historyHidden")) {
-      hidebutton.innerText = "[show]";
-    }
-    else {
-      hidebutton.innerText = "[hide]";
-    }
-  })
+    hideButton.innerText = TableContainer.classList.contains("historyHidden") ? "▼" : "▲";
+  });
+
   container.appendChild(title);
-  container.appendChild(hidebutton);
+  container.appendChild(hideButton);
   div.appendChild(container);
 
   const TableContainer = document.createElement('DIV')
