@@ -196,10 +196,10 @@
 
         <h2>Spawning</h2>
         <p>
-            Naturally spawning Gronckles appear in the Overworld.
-            Those within the "Other" category will be explained in a later update.
-            Typically, they appear in groups of a size that ranges from 2 to 5,
-            but sometimes a female Gronckle is able to spawn together with a baby, increasing the size of the group.
+            Gronckle variants in the "Naturally spawning" category appear in the Overworld.
+            Variants within the "Other" category will be explained in a future update.
+            Typically, they appear in groups of a size that ranges from 2 to 5 dragons,
+            but sometimes a female Gronckle is able to spawn together with a baby, increasing the total size of the group.
         </p>
         <p>
             The chances for a Female Gronckle to spawn with a baby near her are 1% (1/100).
@@ -208,7 +208,7 @@
         <p>The gender and variant of wild Gronckles will always be random.</p>
         <p>
             Gronckles will also spawn if you use a Gronckle spawn egg on any block or entity.
-            When the spawn egg is used on a Gronckle, it will spawn a baby.
+            When the spawn egg is used on another Gronckle, it will spawn a baby.
         </p>
         <p>
             When a Gronckle spawns, each stat will be randomly generated within a certain range.
@@ -292,9 +292,9 @@
                     <td>On land</td>
                 </tr>
                 <tr> <!-- Old Growth Birch Forest -->
-                    <td><a target="_blank" href="https://minecraft.wiki/w/Old_Growth_Birch_Forest">Old Growth Birch Forest</a>
-                        <p style="margin: 0px; font-size: 8.5pt; word-spacing:-4px;">(formerly known as Tall Birch
-                            Forest)</p>
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Old_Growth_Birch_Forest">Old Growth Birch Forest</a>
+                        <p style="margin: 0px; font-size: 8.5pt; word-spacing:-4px;">(formerly known as Tall Birch Forest)</p>
                     </td>
                     <td>Clear</td>
                     <td>Day</td>
@@ -366,10 +366,9 @@
                     <td>On land</td>
                 </tr>
                 <tr> <!-- Old Growth Birch Forest -->
-                    <td><a target="_blank" href="https://minecraft.wiki/w/Old_Growth_Birch_Forest">Old Growth Birch
-                            Forest</a>
-                        <p style="margin: 0px; font-size: 8.5pt; word-spacing:-4px;">(formerly known as Tall Birch
-                            Forest)</p>
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Old_Growth_Birch_Forest">Old Growth Birch Forest</a>
+                        <p style="margin: 0px; font-size: 8.5pt; word-spacing:-4px;">(formerly known as Tall Birch Forest)</p>
                     </td>
                     <td>Clear</td>
                     <td>Day</td>
@@ -443,10 +442,9 @@
                     <td>On land</td>
                 </tr>
                 <tr> <!-- Old Growth Birch Forest -->
-                    <td><a target="_blank" href="https://minecraft.wiki/w/Old_Growth_Birch_Forest">Old Growth Birch
-                            Forest</a>
-                        <p style="margin: 0px; font-size: 8.5pt; word-spacing:-4px;">(formerly known as Tall Birch
-                            Forest)</p>
+                    <td>
+                        <a target="_blank" href="https://minecraft.wiki/w/Old_Growth_Birch_Forest">Old Growth Birch Forest</a>
+                        <p style="margin: 0px; font-size: 8.5pt; word-spacing:-4px;">(formerly known as Tall Birch Forest)</p>
                     </td>
                     <td>Clear</td>
                     <td>Day</td>
@@ -490,8 +488,8 @@
         <p>When killed, the Gronckle drop scales depending on their current growth stage.</p>
         <div id="Drops">
             <h4 class="notoc" id="DropsTitle">Drops:</h4>
+            <!-- Amount of Scales dropped per growth stage in ratio and percentage -->
             <table id="DropsTable" class="wikitable">
-                <!-- Amount of Scales dropped per growth stage in ratio and percentage -->
                 <tr>
                     <th style="font-size: 14pt;">Stage</th>
                     <th style="font-size: 14pt;">Chance</th>
@@ -541,8 +539,9 @@
             You can also let it follow you by right-clicking on it with <a href="#" onclick="DragonToStaff()">Valka's Staff</a>
             or by pressing the "All Follow" keybind (G by default).
             <br>
-            If you right-click a Gronckle with a <a onclick="DragonToDragonSaddle()">Gronckle Saddle</a>, the dragon will equip it.
-            However, as of Alpha 0.0.7 the <a onclick="DragonToDragonSaddle()">Gronckle Saddle</a> is completely cosmetic.
+            If you right-click on a Gronckle with a <a onclick="DragonToDragonSaddle()">Gronckle Saddle</a> in your hand, 
+            the dragon will equip it. However, 
+            as of Alpha 0.0.7 the <a onclick="DragonToDragonSaddle()">Gronckle Saddle</a> is completely cosmetic.
         </p>
 
         <h3>Taming & Breeding</h3>
@@ -552,14 +551,7 @@
         </div>
         <div id="Tab4" class="tabcontent"> <!-- Taming -->
             <p>
-                In order to tame a Gronckle, you are required to hold one of the following items and right-click on one in the wild.
-                <br>
-                In Survival Mode, the taming success rate is 30% for each item.
-                <br>
-                In Creative Mode, the taming is guaranteed.
-            </p>
-            <p>
-                The items that can be used to tame a Gronckle are:
+                In order to tame a Gronckle, you have to right click on a wild Gronckle with one of the following items:
             </p>
 
             <table> <!-- Taming Items -->
@@ -614,6 +606,9 @@
                     </td>
                 </tr>
             </table>
+            <p>
+                If the player is in Survival Mode, taming has a success rate of 30%. In Creative Mode, this is guaranteed.
+            </p>
         </div>
         <div id="Tab5" class="tabcontent"> <!-- Breeding-->
             <p>
@@ -665,9 +660,9 @@
                 </tr>
             </table>
             <p>
-                After Breeding 2 Gronckles, the female will lay an egg.
+                After Breeding 2 Gronckles, the female one will lay an egg.
                 <br>
-                After the egg is laid, the female will receive a "Breeding Cooldown" of 10 minutes seconds before it is
+                After the egg is laid, the female will receive a breeding cooldown of 10 minutes seconds before it is
                 able to breed again.
                 <br>
                 The male will not receive a cooldown.
@@ -782,7 +777,7 @@
     </script>
     <footer>
         <div class="copyright-div">
-            <p class="copyright"> Copyright &copy; 2023-2024</p>
+            <p class="copyright"> Copyright &copy; 2023-2025</p>
             <p class="owner">How to Own a Dragon</p>
             <p class="rights">All Rights Reserved</p>
         </div>
